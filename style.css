@@ -1,0 +1,132 @@
+body,html { 
+  width: 100%;
+  height: 100%;
+  background: url(http://wallpaperswide.com/download/earth_4k-wallpaper-2880x1620.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto Mono', sans-serif;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  color:white;
+  margin: 0px;
+  padding:0px;
+
+}
+
+
+.box{
+	
+	display:flex; 
+	margin: 0px;
+}
+.box1{
+	padding-top: 6%;
+	
+	
+	
+
+}
+h1{
+	font-size: 400%;
+}
+.space{
+height: 10%;
+}
+
+hr{
+	border-color: white;
+	width: 23%;
+	border-width: 7px;
+	border-radius: 500px; 
+	text-align: left;
+     margin-left: 16px;
+
+}
+
+.box2{
+
+	
+	display: inline-block;
+	
+	
+	justify-content: right;
+	align-items: right;
+
+	
+	
+
+
+}
+
+/*button*/
+.btnc {
+	background-color: white;
+	border-radius: 500px;
+	border-color: #8888;
+	color: black;
+	transition: all 0.7s;
+}
+
+/*button animation */
+.btnc:hover {
+	background-color: white ;
+	border-color: #8888;
+	color: black;
+	transform: scale(1.1);
+
+}
+
+
+img{
+	width: 1.2em;
+object-fit: cover;
+height: auto;
+padding: 0.1px;
+margin-left: 75%;
+
+
+
+	
+	transition: all 0.5s;
+	filter: gray;
+    -webkit-filter: grayscale(1);
+}
+img:hover{
+	transform: scale(1.3);
+	filter: none;
+    -webkit-filter: grayscale(0);
+    }
+
+@media only screen and (min-width: 720px){
+.box1{
+
+
+	text-align:center;
+	padding-left: 10%;
+
+
+    
+}
+hr{
+	margin-left: 47.4%;
+
+
+	width:5%;
+	
+
+
+
+}
+h1{
+	font-size: 600%;
+}
+
+.space{
+height: 20%;
+}
+img{
+	margin-left: 97%;
+}
+
+}
